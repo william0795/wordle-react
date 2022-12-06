@@ -19,4 +19,6 @@ export const VALID_GUESSES = [
   'cosas',
   'react',
   'carro',
+  'wordl',
+  'arbol',
 ]

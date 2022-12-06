@@ -28,4 +28,6 @@ export const WORDS = [
   'cosas',
   'react',
   'carro',
+  'wordl',
+  'arbol',
 ]
