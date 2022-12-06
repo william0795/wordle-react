@@ -54,18 +54,26 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell isCompleted={true} value="T" />
         <Cell isRevealing={true} value="O" isCompleted={true} status="absent" />
       </div>
-      <p className="text-sm text-gray-500 dark:text-gray-300">
+      <p className="mb-3 text-sm text-gray-500 dark:text-gray-300">
         La letra O no está en la palabra.
       </p>
-
-      <p className="mt-6 text-sm italic text-gray-500 dark:text-gray-300">
-        <a
-          href="https://github.com/william0795/wordle-react"
-          className="font-bold underline"
-        >
-          Obtener codigo aquí
-        </a>{' '}
+      <p className="mb-3 text-sm text-gray-500 dark:text-gray-300">
+        Puede haber letras repetidas. Las pistas son independientes para cada
+        letra.
       </p>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        ¡Una palabra nueva cada 5 minutos!
+      </p>
+      <div className="button-modal">
+        <button
+          onClick={() => handleClose()}
+          tabIndex={0}
+          aria-pressed="false"
+          className="btn-info"
+        >
+          ¡JUGAR!
+        </button>
+      </div>
     </BaseModal>
   )
 }

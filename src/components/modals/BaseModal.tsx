@@ -39,14 +39,14 @@ export const BaseModal = ({ title, children, isOpen, handleClose }: Props) => {
             leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
           >
             <div className="inline-block transform overflow-hidden rounded-lg bg-white px-4 pt-5 pb-4 text-left align-bottom shadow-xl transition-all dark:bg-gray-800 sm:my-8 sm:w-full sm:max-w-sm sm:p-6 sm:align-middle">
-              <button
+              {/* <button
                 onClick={() => handleClose()}
                 tabIndex={0}
                 aria-pressed="false"
                 className="absolute right-4 top-4"
               >
                 <XCircleIcon className="h-6 w-6 cursor-pointer dark:stroke-white" />
-              </button>
+              </button> */}
               <div>
                 <div className="text-center">
                   <Dialog.Title

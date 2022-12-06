@@ -94,6 +94,22 @@ svg.cursor-pointer:hover {
 .textStaus {
   text-align: center;
 }
+.button-modal {
+  text-align: center;
+}
+.button-modal .btn-info {
+  background: #6aaa64;
+  border-radius: 5px;
+  padding: 2%;
+  padding-right: 10%;
+  padding-left: 10%;
+  max-width: 40%;
+  text-align: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
 @keyframes revealAbsentCharCell {
   0% {
     transform: rotateX(0deg);

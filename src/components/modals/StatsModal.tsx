@@ -51,6 +51,16 @@ export const StatsModal = ({
         handleClose={handleClose}
       >
         <StatBar gameStats={gameStats} />
+        <div className="button-modal">
+          <button
+            onClick={() => handleClose()}
+            tabIndex={0}
+            aria-pressed="false"
+            className="btn-info"
+          >
+            Aceptar
+          </button>
+        </div>
       </BaseModal>
     )
   }
@@ -103,6 +113,16 @@ export const StatsModal = ({
           </div>
         </div>
       )}
+      <div className="button-modal">
+        <button
+          onClick={() => handleClose()}
+          tabIndex={0}
+          aria-pressed="false"
+          className="btn-info"
+        >
+          Aceptar
+        </button>
+      </div>
     </BaseModal>
   )
 }
